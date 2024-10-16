@@ -20,7 +20,7 @@ group :development do
     gem 'rb-fsevent', require: false
 
     if `uname`.strip == 'Darwin' && `sw_vers -productVersion`.strip >= '10.8'
-      gem 'terminal-notifier-guard', '~> 1.5.3', require: false
+      gem 'terminal-notifier-guard', '~> 1.7.0', require: false
     end rescue Errno::ENOENT
 
   elsif RbConfig::CONFIG['target_os'] =~ /linux/i
