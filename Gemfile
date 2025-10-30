@@ -36,7 +36,7 @@ end
 
 group :test do
   gem 'thor'
-  gem 'rake', '>= 0.9.2.2'
+  gem 'rake', '>= 13.3.1'
   gem 'rspec'
   gem 'fuubar'
 end
